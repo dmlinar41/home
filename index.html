@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nika Škergat | Inženirka strojništva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Nika Škergat</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#omeni">O meni</a></li>
+                <li><a href="#delo">Moje delo</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nika Škergat</h1>
+            <h2>Diplomirana inženirka strojništva</h2>
+            <p>Strokovnjak za projektiranje strojnih instalacij</p>
+            <a href="#kontakt" class="btn">Kontaktirajte me</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="omeni" class="section">
+            <div class="container">
+                <h2 class="section-title">O meni</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Sem diplomirana inženirka strojništva s strastjo za projektiranje in optimizacijo strojnih sistemov. Z večletnimi izkušnjami na področju strojnih instalacij ponujam celovite rešitve, ki združujejo tehnično natančnost in inovativnost.</p>
+                        <p>Moja specializacija vključuje projektiranje ogrevalnih, prezračevalnih in klimatskih sistemov ter energetsko učinkovitih rešitev za različne vrste objektov.</p>
+                        <p>Pri delu se osredotočam na podrobnosti, funkcionalnost in trajnostnost rešitev, ki ustrezajo potrebam strank in veljavnim standardom.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">Slika</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="delo" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Moje delo</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <h3>Projektiranje ogrevalnih sistemov</h3>
+                        <p>Načrtovanje in optimizacija centralnih in decentralnih ogrevalnih sistemov za stanovanjske in poslovne objekte.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Prezračevalni sistemi</h3>
+                        <p>Projektiranje mehanskih in naravnih prezračevalnih sistemov z zagotavljanjem kakovostne notranje klima.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Klimatske naprave</h3>
+                        <p>Načrtovanje klimatskih sistemov za različne namene, vključno s hlajenjem in vlaženjem zraka.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Energetska učinkovitost</h3>
+                        <p>Analiza in izboljšanje energetske učinkovitosti stavb s poudarkom na strojnih instalacijah.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontakt" class="section">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Stopite v stik z mano</h3>
+                        <p>Za povpraševanja, ponudbe ali sodelovanje me lahko kontaktirate preko spodnjih podatkov ali obrazca.</p>
+                        <div class="contact-details">
+                            <p><strong>Email:</strong> nika.skergat@example.com</p>
+                            <p><strong>Telefon:</strong> +386 41 123 456</p>
+                            <p><strong>Lokacija:</strong> Ljubljana, Slovenija</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ime in priimek</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-pošta</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Sporočilo</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Pošlji sporočilo</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Nika Škergat. Vse pravice pridržane.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
